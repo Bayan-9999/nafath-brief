@@ -31,5 +31,7 @@ A star schema uses a central table for usage data, linked directly to tables suc
 
 Resource: Understand star schema and the importance for Power BI - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 Misconception in My Track
+A common misunderstanding is that a dedicated 5G network slice is a fully separate physical network that always keeps emergency communications working. In fact, a slice is a logical network that uses shared infrastructure to provide specific services and features. Its reliability depends on proper resource management, service requirements, regular monitoring, and security. It also depends on the strength and reliability of the main radio and core networks.
 
 Open Question
+I would check the required service levels, reserved network capacity, and backup systems to keep the emergency-response network slice working during heavy traffic, network site outages, or failures in shared core systems.
