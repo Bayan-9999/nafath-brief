@@ -18,11 +18,18 @@ The responder app should be designed to work without an internet connection. It 
 Resource: Build an offline-first app - https://developer.android.com/topic/architecture/data-layer/offline-first
 
 Networking
+5G network slicing creates separate logical networks with different capabilities using the same physical infrastructure. A special slice for emergency services can provide enough capacity, low delay, reliable connections, and better security for calls, location, video, and incident reports. During busy periods, network rules can give emergency teams priority over regular network traffic . However, reliable service also needs good network coverage, enough system capacity, backup power, and regular monitoring.
+
+Resource: 5G Network slice management - https://www.3gpp.org/technologies/slice-management 
 
 Cybersecurity
+The cybersecurity process starts with preparation, including setting rules, identifying important systems, and applying security controls. Detection helps find unusual activity and confirm attacks. During response, the team checks the damage, limits the problem by isolating affected systems, and removes threats. Recovery restores safe services, checks that they work properly, and increases monitoring. Finally, the team reviews what happened and uses the lessons to improve security plans, controls, training, and future decisions.
 
+Resource: NIST SP 800-61 Rev. 3 - Incident Response Recommendations and Considerations for Cybersecurity Risk Management - https://csrc.nist.gov/pubs/sp/800/61/r3/final
 Data
+A star schema uses a central table for usage data, linked directly to tables such as date, region, service, and responder organization. A snowflake schema splits these tables into smaller related tables, which reduces repeated data but makes queries more complex. For daily usage reports by region, a star schema is a better choice because it is easier to understand, simplifies data calculations, and supports faster analysis.
 
+Resource: Understand star schema and the importance for Power BI - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 Misconception in My Track
 
 Open Question
